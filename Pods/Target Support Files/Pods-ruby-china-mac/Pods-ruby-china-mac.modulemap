@@ -1,0 +1,6 @@
+framework module Pods_ruby_china_mac {
+  umbrella header "Pods-ruby-china-mac-umbrella.h"
+
+  export *
+  module * { export * }
+}
