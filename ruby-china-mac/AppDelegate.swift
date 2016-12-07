@@ -11,9 +11,10 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+var windowController: NSWindowController?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        windowController = NSApplication.shared().mainWindow?.windowController
         // Insert code here to initialize your application
     }
 

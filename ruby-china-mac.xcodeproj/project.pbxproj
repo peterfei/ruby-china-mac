@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8850592C1DF7F9B5005D6648 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8850592B1DF7F9B5005D6648 /* MenuViewController.swift */; };
+		8850592E1DF7FE25005D6648 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8850592D1DF7FE25005D6648 /* MenuModel.swift */; };
+		885059301DF7FF2B005D6648 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8850592F1DF7FF2B005D6648 /* MenuCell.swift */; };
+		885059321DF80648005D6648 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885059311DF80648005D6648 /* WindowController.swift */; };
+		885059341DF80704005D6648 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885059331DF80704005D6648 /* TabViewController.swift */; };
 		885839C01DF7E3A9007DE015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885839BF1DF7E3A9007DE015 /* AppDelegate.swift */; };
 		885839C21DF7E3A9007DE015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885839C11DF7E3A9007DE015 /* ViewController.swift */; };
 		885839C41DF7E3A9007DE015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885839C31DF7E3A9007DE015 /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 
 /* Begin PBXFileReference section */
 		79D39E4206A9C035F08BD3BB /* Pods_ruby_china_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ruby_china_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8850592B1DF7F9B5005D6648 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8850592D1DF7FE25005D6648 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		8850592F1DF7FF2B005D6648 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		885059311DF80648005D6648 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		885059331DF80704005D6648 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		885839BC1DF7E3A9007DE015 /* ruby-china-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ruby-china-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		885839BF1DF7E3A9007DE015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		885839C11DF7E3A9007DE015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +93,7 @@
 		885839CF1DF7E96B007DE015 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8850592F1DF7FF2B005D6648 /* MenuCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +101,7 @@
 		885839D01DF7E99D007DE015 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8850592D1DF7FE25005D6648 /* MenuModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +109,9 @@
 		885839D11DF7E9A8007DE015 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8850592B1DF7F9B5005D6648 /* MenuViewController.swift */,
+				885059311DF80648005D6648 /* WindowController.swift */,
+				885059331DF80704005D6648 /* TabViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -239,7 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8850592E1DF7FE25005D6648 /* MenuModel.swift in Sources */,
+				885059321DF80648005D6648 /* WindowController.swift in Sources */,
+				885059301DF7FF2B005D6648 /* MenuCell.swift in Sources */,
 				885839C21DF7E3A9007DE015 /* ViewController.swift in Sources */,
+				8850592C1DF7F9B5005D6648 /* MenuViewController.swift in Sources */,
+				885059341DF80704005D6648 /* TabViewController.swift in Sources */,
 				885839C01DF7E3A9007DE015 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
