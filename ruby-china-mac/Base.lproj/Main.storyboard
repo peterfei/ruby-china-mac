@@ -704,18 +704,18 @@
             <objects>
                 <viewController id="h4q-3c-YoZ" customClass="MenuViewController" customModule="ruby_china_mac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="bOz-xX-az3">
-                        <rect key="frame" x="0.0" y="0.0" width="132" height="337"/>
+                        <rect key="frame" x="0.0" y="0.0" width="132" height="547"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="92" horizontalPageScroll="10" verticalLineScroll="92" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJE-i8-pMf">
-                                <rect key="frame" x="0.0" y="0.0" width="132" height="337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="132" height="547"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" ambiguous="YES" id="wkV-OT-l1Y">
-                                    <rect key="frame" x="1" y="1" width="130" height="335"/>
+                                    <rect key="frame" x="1" y="1" width="130" height="545"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="none" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="90" rowSizeStyle="automatic" viewBased="YES" id="bb8-ev-ahv">
-                                            <rect key="frame" x="0.0" y="0.0" width="130" height="335"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="130" height="545"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" red="0.90546065409999998" green="0.8751539102" blue="0.83000219959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -777,7 +777,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="VNb-C8-3S5">
-                                    <rect key="frame" x="1" y="320" width="130" height="16"/>
+                                    <rect key="frame" x="1" y="-15" width="0.0" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="tdM-IS-kRH">
@@ -793,7 +793,7 @@
                 </viewController>
                 <customObject id="tVw-nh-Wwi" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="560.5"/>
+            <point key="canvasLocation" x="642" y="95.5"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="ZOk-Yf-uCH">
