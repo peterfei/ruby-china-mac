@@ -16,6 +16,10 @@
 		885839C21DF7E3A9007DE015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885839C11DF7E3A9007DE015 /* ViewController.swift */; };
 		885839C41DF7E3A9007DE015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885839C31DF7E3A9007DE015 /* Assets.xcassets */; };
 		885839C71DF7E3A9007DE015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885839C51DF7E3A9007DE015 /* Main.storyboard */; };
+		88A21BC81DFA8CE8003188E9 /* TopicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BC71DFA8CE8003188E9 /* TopicListViewController.swift */; };
+		88A21BCA1DFA93FA003188E9 /* TopicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BC91DFA93FA003188E9 /* TopicListCell.swift */; };
+		88A21BCC1DFA9DB5003188E9 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BCB1DFA9DB5003188E9 /* TopicModel.swift */; };
+		88A21BCE1DFA9E8F003188E9 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BCD1DFA9E8F003188E9 /* Const.swift */; };
 		E7F1C0C8DAE879A9961F5715 /* Pods_ruby_china_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D39E4206A9C035F08BD3BB /* Pods_ruby_china_mac.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,10 @@
 		885839C31DF7E3A9007DE015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885839C61DF7E3A9007DE015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		885839C81DF7E3A9007DE015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A21BC71DFA8CE8003188E9 /* TopicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicListViewController.swift; sourceTree = "<group>"; };
+		88A21BC91DFA93FA003188E9 /* TopicListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicListCell.swift; sourceTree = "<group>"; };
+		88A21BCB1DFA9DB5003188E9 /* TopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		88A21BCD1DFA9E8F003188E9 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		D28DA3071A8FE26B23F8030B /* Pods-ruby-china-mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruby-china-mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruby-china-mac/Pods-ruby-china-mac.release.xcconfig"; sourceTree = "<group>"; };
 		D5F058FCFF3B95BDAB45B67B /* Pods-ruby-china-mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruby-china-mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruby-china-mac/Pods-ruby-china-mac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				8850592D1DF7FE25005D6648 /* MenuModel.swift */,
+				88A21BCB1DFA9DB5003188E9 /* TopicModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,6 +121,8 @@
 				8850592B1DF7F9B5005D6648 /* MenuViewController.swift */,
 				885059311DF80648005D6648 /* WindowController.swift */,
 				885059331DF80704005D6648 /* TabViewController.swift */,
+				88A21BC71DFA8CE8003188E9 /* TopicListViewController.swift */,
+				88A21BC91DFA93FA003188E9 /* TopicListCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 		885839D21DF7E9A8007DE015 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				88A21BCD1DFA9E8F003188E9 /* Const.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -256,11 +268,15 @@
 			files = (
 				8850592E1DF7FE25005D6648 /* MenuModel.swift in Sources */,
 				885059321DF80648005D6648 /* WindowController.swift in Sources */,
+				88A21BC81DFA8CE8003188E9 /* TopicListViewController.swift in Sources */,
 				885059301DF7FF2B005D6648 /* MenuCell.swift in Sources */,
 				885839C21DF7E3A9007DE015 /* ViewController.swift in Sources */,
+				88A21BCC1DFA9DB5003188E9 /* TopicModel.swift in Sources */,
+				88A21BCA1DFA93FA003188E9 /* TopicListCell.swift in Sources */,
 				8850592C1DF7F9B5005D6648 /* MenuViewController.swift in Sources */,
 				885059341DF80704005D6648 /* TabViewController.swift in Sources */,
 				885839C01DF7E3A9007DE015 /* AppDelegate.swift in Sources */,
+				88A21BCE1DFA9E8F003188E9 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
