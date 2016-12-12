@@ -20,6 +20,7 @@
 		88A21BCA1DFA93FA003188E9 /* TopicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BC91DFA93FA003188E9 /* TopicListCell.swift */; };
 		88A21BCC1DFA9DB5003188E9 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BCB1DFA9DB5003188E9 /* TopicModel.swift */; };
 		88A21BCE1DFA9E8F003188E9 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A21BCD1DFA9E8F003188E9 /* Const.swift */; };
+		88FBE4CE1DFE6D2E00C0A276 /* NSImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FBE4CD1DFE6D2E00C0A276 /* NSImageView+Ext.swift */; };
 		E7F1C0C8DAE879A9961F5715 /* Pods_ruby_china_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D39E4206A9C035F08BD3BB /* Pods_ruby_china_mac.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		88A21BC91DFA93FA003188E9 /* TopicListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicListCell.swift; sourceTree = "<group>"; };
 		88A21BCB1DFA9DB5003188E9 /* TopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
 		88A21BCD1DFA9E8F003188E9 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		88FBE4CD1DFE6D2E00C0A276 /* NSImageView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImageView+Ext.swift"; sourceTree = "<group>"; };
 		D28DA3071A8FE26B23F8030B /* Pods-ruby-china-mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruby-china-mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-ruby-china-mac/Pods-ruby-china-mac.release.xcconfig"; sourceTree = "<group>"; };
 		D5F058FCFF3B95BDAB45B67B /* Pods-ruby-china-mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ruby-china-mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ruby-china-mac/Pods-ruby-china-mac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				88A21BCD1DFA9E8F003188E9 /* Const.swift */,
+				88FBE4CD1DFE6D2E00C0A276 /* NSImageView+Ext.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				885839C21DF7E3A9007DE015 /* ViewController.swift in Sources */,
 				88A21BCC1DFA9DB5003188E9 /* TopicModel.swift in Sources */,
 				88A21BCA1DFA93FA003188E9 /* TopicListCell.swift in Sources */,
+				88FBE4CE1DFE6D2E00C0A276 /* NSImageView+Ext.swift in Sources */,
 				8850592C1DF7F9B5005D6648 /* MenuViewController.swift in Sources */,
 				885059341DF80704005D6648 /* TabViewController.swift in Sources */,
 				885839C01DF7E3A9007DE015 /* AppDelegate.swift in Sources */,

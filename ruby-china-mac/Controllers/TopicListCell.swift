@@ -16,8 +16,8 @@ class TopicListCell: NSTableCellView {
     
     
     @IBOutlet weak var titleField: NSTextField!
-    @IBOutlet weak var secondField: NSTextField!
-    
+    @IBOutlet weak var nodeField: NSTextField!
+    @IBOutlet weak var authorField: NSTextField!
     override func awakeFromNib() {
         super.awakeFromNib()
         wrapView.layer?.backgroundColor = NSColor.gray.cgColor
@@ -31,7 +31,8 @@ class TopicListCell: NSTableCellView {
     func configureCell(_ topic:TopicModel) {
         titleField.stringValue = topic.title
         
-       
-//        iconImageView.setImage(article.imageUrl, placeholder: NSImage(named: "placeholder-image"))
+        nodeField.stringValue = topic.node
+        authorField.stringValue = topic.author
+        iconImageView.setImage(topic.imageUrl, placeholder: NSImage(named: "placeholder-image"))
     }
 }

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -862,20 +863,39 @@
                                                                     <rect key="frame" x="10" y="3" width="429" height="77"/>
                                                                     <subviews>
                                                                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2aL-rg-haz">
-                                                                            <rect key="frame" x="20" y="15" width="48" height="48"/>
+                                                                            <rect key="frame" x="6" y="8" width="48" height="55"/>
                                                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSApplicationIcon" id="eL8-oP-OeV"/>
                                                                         </imageView>
                                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fwn-1u-APK">
-                                                                            <rect key="frame" x="92" y="38" width="319" height="25"/>
+                                                                            <rect key="frame" x="60" y="38" width="360" height="25"/>
                                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="这是标题" id="nFk-eN-yA3">
-                                                                                <font key="font" size="17" name=".PingFangSC-Regular"/>
+                                                                                <font key="font" size="14" name=".PingFangSC-Medium"/>
                                                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                         </textField>
                                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xGy-OQ-JKK">
-                                                                            <rect key="frame" x="92" y="13" width="328" height="24"/>
+                                                                            <rect key="frame" x="184" y="13" width="89" height="24"/>
                                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="副标题" id="ciS-Dx-OtX">
+                                                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                            </textFieldCell>
+                                                                        </textField>
+                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LoU-i9-Wy3">
+                                                                            <rect key="frame" x="317" y="13" width="94" height="24"/>
+                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="副标题" id="Eze-0O-ngt">
+                                                                                <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                            </textFieldCell>
+                                                                        </textField>
+                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fk6-cB-0iu">
+                                                                            <rect key="frame" x="277" y="13" width="42" height="24"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" constant="38" id="OcO-vY-CA8"/>
+                                                                            </constraints>
+                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="|" id="S8S-sr-udk">
                                                                                 <font key="font" size="13" name=".PingFangSC-Regular"/>
                                                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -883,19 +903,27 @@
                                                                         </textField>
                                                                     </subviews>
                                                                     <constraints>
+                                                                        <constraint firstItem="fk6-cB-0iu" firstAttribute="leading" secondItem="xGy-OQ-JKK" secondAttribute="trailing" constant="8" id="50i-Oz-NgN"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="LoU-i9-Wy3" secondAttribute="bottom" constant="13" id="Aib-VV-qVd"/>
                                                                         <constraint firstAttribute="height" constant="77" id="Ama-cw-3c6"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="LoU-i9-Wy3" secondAttribute="trailing" constant="20" id="FX1-CP-mId"/>
                                                                         <constraint firstItem="fwn-1u-APK" firstAttribute="top" secondItem="2aL-rg-haz" secondAttribute="top" id="JTu-WJ-QbE"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="xGy-OQ-JKK" secondAttribute="trailing" constant="11" id="K2c-tU-pK9"/>
-                                                                        <constraint firstItem="2aL-rg-haz" firstAttribute="leading" secondItem="ZMD-ge-lot" secondAttribute="leading" constant="20" id="dg5-Gv-7Tc"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="xGy-OQ-JKK" secondAttribute="trailing" constant="158" id="K2c-tU-pK9"/>
+                                                                        <constraint firstItem="fk6-cB-0iu" firstAttribute="firstBaseline" secondItem="xGy-OQ-JKK" secondAttribute="firstBaseline" id="NpA-2q-nhZ"/>
+                                                                        <constraint firstItem="fk6-cB-0iu" firstAttribute="baseline" secondItem="xGy-OQ-JKK" secondAttribute="baseline" id="X5r-1r-kQl"/>
+                                                                        <constraint firstItem="2aL-rg-haz" firstAttribute="leading" secondItem="ZMD-ge-lot" secondAttribute="leading" constant="6" id="dg5-Gv-7Tc"/>
                                                                         <constraint firstItem="xGy-OQ-JKK" firstAttribute="top" secondItem="fwn-1u-APK" secondAttribute="bottom" constant="1" id="hY2-XI-Z89"/>
                                                                         <constraint firstAttribute="bottom" secondItem="fwn-1u-APK" secondAttribute="bottom" constant="38" id="jdZ-48-dnS"/>
-                                                                        <constraint firstAttribute="bottom" secondItem="2aL-rg-haz" secondAttribute="bottom" constant="15" id="jg0-Wh-ea5"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="fwn-1u-APK" secondAttribute="trailing" constant="20" symbolic="YES" id="oXE-kw-CnH"/>
-                                                                        <constraint firstItem="fwn-1u-APK" firstAttribute="leading" secondItem="2aL-rg-haz" secondAttribute="trailing" constant="26" id="oaB-Ak-zB7"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="2aL-rg-haz" secondAttribute="trailing" constant="361" id="rOd-CP-7cV"/>
-                                                                        <constraint firstItem="xGy-OQ-JKK" firstAttribute="leading" secondItem="2aL-rg-haz" secondAttribute="trailing" constant="26" id="t7S-YC-ufE"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="xGy-OQ-JKK" secondAttribute="bottom" constant="13" id="jfB-39-Dem"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="2aL-rg-haz" secondAttribute="bottom" constant="8" id="jg0-Wh-ea5"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="fwn-1u-APK" secondAttribute="trailing" constant="11" id="oXE-kw-CnH"/>
+                                                                        <constraint firstItem="fwn-1u-APK" firstAttribute="leading" secondItem="2aL-rg-haz" secondAttribute="trailing" constant="8" id="oaB-Ak-zB7"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="2aL-rg-haz" secondAttribute="trailing" constant="375" id="rOd-CP-7cV"/>
+                                                                        <constraint firstItem="xGy-OQ-JKK" firstAttribute="leading" secondItem="2aL-rg-haz" secondAttribute="trailing" constant="132" id="t7S-YC-ufE"/>
                                                                         <constraint firstAttribute="bottom" secondItem="xGy-OQ-JKK" secondAttribute="bottom" constant="13" id="tDz-K9-wly"/>
                                                                         <constraint firstItem="2aL-rg-haz" firstAttribute="top" secondItem="ZMD-ge-lot" secondAttribute="top" constant="14" id="uE6-5X-ZWZ"/>
+                                                                        <constraint firstItem="LoU-i9-Wy3" firstAttribute="top" secondItem="fwn-1u-APK" secondAttribute="bottom" constant="1" id="ze9-cx-YmJ"/>
+                                                                        <constraint firstItem="LoU-i9-Wy3" firstAttribute="leading" secondItem="fk6-cB-0iu" secondAttribute="trailing" constant="2" id="zpD-5t-vEu"/>
                                                                     </constraints>
                                                                 </customView>
                                                             </subviews>
@@ -906,8 +934,9 @@
                                                                 <constraint firstItem="ZMD-ge-lot" firstAttribute="top" secondItem="UJp-LT-olC" secondAttribute="top" constant="3" id="v5q-RJ-SAi"/>
                                                             </constraints>
                                                             <connections>
+                                                                <outlet property="authorField" destination="LoU-i9-Wy3" id="pdf-J2-K27"/>
                                                                 <outlet property="iconImageView" destination="2aL-rg-haz" id="dp6-xS-hGe"/>
-                                                                <outlet property="secondField" destination="xGy-OQ-JKK" id="9Uq-9z-QhM"/>
+                                                                <outlet property="nodeField" destination="xGy-OQ-JKK" id="KPW-CR-dza"/>
                                                                 <outlet property="titleField" destination="fwn-1u-APK" id="RN3-V5-nih"/>
                                                                 <outlet property="wrapView" destination="ZMD-ge-lot" id="bUk-GT-WA9"/>
                                                             </connections>

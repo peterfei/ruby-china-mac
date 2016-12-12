@@ -13,6 +13,8 @@ class TopicModel: NSObject {
     var imageUrl: String    = ""
     var title: String       = ""
     var id: Int      = 0
+    var author: String = ""
+    var node:String = ""
     class func mapping(_ json:JSON) -> TopicModel{
         let article = TopicModel()
 //        let createDate = json["createDate"].doubleValue
@@ -22,7 +24,9 @@ class TopicModel: NSObject {
 //        article.source = json["sourceName"].stringValue
 //        article.viewCount = viewCount
 //        article.createDate = createDate
-        article.imageUrl = json["imageUrl"].stringValue
+        article.imageUrl = json["user"]["avatar_url"].stringValue
+        article.node = json["node_name"].stringValue
+        article.author = json["user"]["login"].stringValue
 //        article.url = ServiceApi.getArticlShowDetailUrl(article.articleId)
         return article
     }
