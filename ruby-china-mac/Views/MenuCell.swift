@@ -35,7 +35,7 @@ class MenuCell: NSTableCellView {
     
     func setSelectedBackgroundColor(_ isSelected: Bool) {
         if isSelected {
-            self.layer?.backgroundColor = NSColor(red: 31.0/255.0, green: 32.0/255.0, blue: 33.0/255.0, alpha: 1.0).cgColor
+            self.layer?.backgroundColor = NSColor(red: 31.0/255.0, green: 32.0/255.0, blue: 33.0/255.0, alpha: 0.2).cgColor
         } else {
             self.layer?.backgroundColor = NSColor.clear.cgColor
         }
